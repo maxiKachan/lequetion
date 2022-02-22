@@ -1,3 +1,4 @@
 rootProject.name = 'java-bank-team'
 
 includeBuild 'registry-server'
+includeBuild 'authentication-registration-service'

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,6 +12,11 @@
                   <project path="$PROJECT_DIR$/registry-server" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/authentication-registration-service" name="authentication-registration-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/authentication-registration-service" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -20,17 +26,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/authentication-registration-service" />
             <option value="$PROJECT_DIR$/registry-server" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/auth-reg-service" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/authentication-registration-service" />
         <option name="gradleHome" value="C:/gradle/gradle-7.4" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/auth-reg-service" />
+            <option value="$PROJECT_DIR$/authentication-registration-service" />
           </set>
         </option>
       </GradleProjectSettings>
