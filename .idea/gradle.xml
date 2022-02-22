@@ -26,6 +26,16 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/auth-reg-service" />
+        <option name="gradleHome" value="C:/gradle/gradle-7.4" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/auth-reg-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/registry-server" />
         <option name="gradleHome" value="C:/gradle/gradle-7.4" />
         <option name="modules">
