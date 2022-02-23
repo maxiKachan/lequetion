@@ -22,7 +22,7 @@
         </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:/gradle/gradle-7.4" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle/gradle-7.4" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -44,7 +44,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/registry-server" />
-        <option name="gradleHome" value="C:/gradle/gradle-7.4" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle/gradle-7.4" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/registry-server" />

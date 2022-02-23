@@ -1,13 +1,11 @@
-package com.andersen.authenticationregistrationservice.entuty;
+package com.andersen.authenticationregistrationservice.entity;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
+import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,6 +13,7 @@ import java.util.Objects;
 @Setter
 @ToString
 @Entity
+@Table(name = "a_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -25,6 +24,14 @@ public class User {
     private String email;
     private String phone;
     private String passportIdentify;
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "user_role",
+            joinColumns = { @JoinColumn(name = "user_id") },
+            inverseJoinColumns = { @JoinColumn(name = "role_id") })
+    private Set<Role> roles;
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "user")
+    private SecretQuestion secretQuestion;
 
     @Override
     public boolean equals(Object o) {
