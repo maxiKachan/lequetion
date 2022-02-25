@@ -4,9 +4,5 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lequetion.main" target="11" />
-      <module name="lequetion.test" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,18 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+   http://www.liquibase.org/xml/ns/dbchangelog
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="inti" author="author">
+        <sqlFile path="classpath:db/changelog/changeset/E-1/changes-107-24-02-2022.sql"/>
+    </changeSet>
+
+    <changeSet id="populate" author="author">
+        <sqlFile path="classpath:db/changelog/changeset/E-1/changes-107-25-02-2022.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
